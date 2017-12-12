@@ -18,6 +18,7 @@ public class dateTime {
            
         int spelledDay = myCalendar.get(Calendar.DAY_OF_WEEK);
         
+        //Sunday is returned as 1, and Saturday as 7
         String [] daysofWeek = { "SUNDAY", "MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY"};
         
         return daysofWeek[spelledDay-1];
